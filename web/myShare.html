@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Ratchet">
+    <title>我的分享</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/myShare.css">
+	<script src="../js/base.js"></script>
+</head>
+<body>
+    <header>
+        <a class="back" onClick="javascript :window.history.back(); return false;"></a>
+        <div class="logo">我的分享</div>
+    </header>
+    <div class="content">
+        <div class="message">
+                <div class="head">
+                        <p><img src="../imgs/head.png" alt=""></p>  
+                        <p class="friend">你的朋友<span>张三</span>正在使用紫石榴应用商店</p>
+                        <p class="recommend">TA的推荐码<span>:daf123</span></p>
+                        <p class="download">(下载应用以后要填写这个推荐码才可以注册，请牢记哦)</p>
+                    </div>
+                    <div class="center">
+                        <p>快来紫石榴应用商店和我一起玩吧</p >
+                        <p>这是一个能赚钱的应用商店</p >
+                        <p>我已经是小财神啦</p >
+                        <p>您分享的人越多</p >
+                        <p>收益就越大</p >
+                    </div>
+                    <div class="bottom">
+                        <p><a href="javascript:void(0);" title="Android下载" data-src="http://f.appstore.zshiliu.com/zslapp/appstore-release-v1.0_31001.apk" class="androidlink">我也要赚钱，去看看</a></p>
+                        <p><a href="javascript:void(0);" title="iPhone下载" data-src="http://f.appstore.zshiliu.com/zslapp/appstore-release-v1.0_31001.apk" class="ioslink"></a></p>
+                    </div>
+            
+                     <!--微信提示浮层-->
+                    <div class="share_bg j_share_bg" style="display:none;position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; animation: opacityIn 1s ease 0.2s both; z-index: 9998; background: rgba(0, 0, 0, 0.6);">
+                        <p class="share_icon" style="clear:both; padding:10px; text-align:right;height:100%;background-position: right top; -webkit-animation:rotateUp 1s .8s ease both;z-index:9999;">
+                            <img id="j_float_nav" src="" alt="" width="100%">
+                        </p>
+                    </div>
+            
+        </div>
+        
+    </div>
+   
+</body>
+<script src="../js/myShare.js"></script>
+</html>
